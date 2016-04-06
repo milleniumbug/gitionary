@@ -1,0 +1,15 @@
+- `hash function` - maps an arbitrary length sequence of bytes to a sequence of bytes of constant length. Good hash function makes probability of producing two identical output sequences from differing input sequences very, very low.
+- `hash` - output of a hash function (Git uses SHA-1) on a sequence of bytes. 
+- `object` - any entity that stores a sequence of bytes.
+- `object store` - key-value store which maps from SHA-1 hashes of the objects to objects themselves.
+- `ref` - SHA-1 hash of an object and information on what kind of object it is.
+- ... more to come
+- `lightweight tag` - contains a name (path) and a ref.
+- `tag object` - an object that contains a date of creation, name, email, message, and, optionally, GPG signature.
+- `annotated tag` - another name for tag object.
+- `tag` - most usually means lightweight tag.
+- ... more to come
+- `repository` - contains: object store, hooks, description, special refs, module descritpion, repository description
+- `merge` -
+- `fetch` - 
+- `pull` - a `fetch`, followed by `merge`
